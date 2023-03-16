@@ -5,10 +5,6 @@ tags:
 
 ---
 
-[arthas watch命令是一种强大的观察方法调用的工具，可以让您查看方法的入参、出参、异常、返回值等信息](https://blog.csdn.net/xinquanv1/article/details/104727620)[1](https://blog.csdn.net/xinquanv1/article/details/104727620)[2](https://developer.aliyun.com/article/768338)[3](https://blog.csdn.net/qq_40911404/article/details/107181852)[。您可以根据不同的条件表达式，过滤出您感兴趣的调用](https://cloud.tencent.com/developer/article/1859055)[4](https://cloud.tencent.com/developer/article/1859055)[5](https://blog.csdn.net/qq_38586496/article/details/110181963)。
-
-
-
 # Dashboard
 
 ## 1.直接使用
@@ -323,7 +319,7 @@ Affect(class count: 1 , method count: 1) cost in 32 ms, listenerId: 9
         `---[100.00% 3008.5769ms ] com.milk.arthaslearn.WatchController:sleep3() #24
 ```
 
-![image-20230316133914832](C:\Users\wh\AppData\Roaming\Typora\typora-user-images\image-20230316133914832.png)
+![image-20230316133914832](https://files.catbox.moe/4abaag.png)
 
 可以发现在多级调用时，trace也会逐级显示调用链路并逐级统计调用时间，在命令行界面中，会将耗时较久的方法进行标红展示
 
