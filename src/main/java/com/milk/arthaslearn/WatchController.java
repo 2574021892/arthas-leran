@@ -1,7 +1,6 @@
 package com.milk.arthaslearn;
 
 import cn.hutool.core.thread.ThreadUtil;
-import cn.hutool.extra.spring.SpringUtil;
 import com.milk.arthaslearn.dto.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
